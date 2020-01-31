@@ -990,7 +990,10 @@ a:hover, a:active {
     min-width: 220px;
     margin-top: 80px;
     text-align: center;
+    margin: auto;
 }
+
+
 
 /*--------------------------------------------------------------
 # Newsletter
