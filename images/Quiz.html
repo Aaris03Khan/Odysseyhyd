@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///D:/Aztecs/Multiple-Choice-Quiz-JavaScript/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./Quiz_files/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="start" style="display: none;">Start Quiz!</div>
+        <div id="quiz" style="display: block;">
+            <div id="question"><p>Which shape would complete the sequence</p></div>
+            <div id="qImg"><img src="./Quiz_files/html.png"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer(&#39;A&#39;)">A</div>
+                <div class="choice" id="B" onclick="checkAnswer(&#39;B&#39;)">B</div>
+                <div class="choice" id="C" onclick="checkAnswer(&#39;C&#39;)">C</div>
+                <div class="choice" id="D" onclick="checkAnswer(&#39;D&#39;)">D</div>
+            </div>
+            <div id="timer">
+                <div id="counter">2</div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge" style="width: 30px;"></div>
+            </div>
+            <div id="progress"><div class="prog" id="0" style="background-color: rgb(255, 0, 0);"></div><div class="prog" id="1" style="background-color: rgb(255, 0, 0);"></div><div class="prog" id="2" style="background-color: rgb(255, 0, 0);"></div><div class="prog" id="3" style="background-color: rgb(0, 255, 0);"></div></div>
+        </div>
+        <div id="scoreContainer" style="display: block;"><img src="./Quiz_files/1.png"><p>0%</p></div>
+    </div>
+    
+    <script src="./Quiz_files/quiz.js.download"></script>
+
+</body></html>
